@@ -29,14 +29,14 @@ class FizzBuzzTest < MiniTest::Test
                  @divide_by_15)
   end
 
-  def test_fuzzbuzz
+  def test_fizzbuzz
     assert_equal(FizzBuzz.fizzbuzz(1), 1)
     assert_equal(FizzBuzz.fizzbuzz(3), 'fizz')
     assert_equal(FizzBuzz.fizzbuzz(5), 'buzz')
     assert_equal(FizzBuzz.fizzbuzz(15), 'fizzbuzz')
   end
 
-  def test_fuzzzbuzz?
+  def test_fizzbuzz?
     assert_equal(FizzBuzz.fizzbuzz?(15), true)
     assert_equal(FizzBuzz.fizzbuzz?(3), false)
     assert_equal(FizzBuzz.fizzbuzz?(5), false)
